@@ -266,7 +266,7 @@ function backToTopButton(){
 
     backToTop.addEventListener("click", function() {
         window.scrollTo({
-            top=0,
+            top:0,
             behavior: "smooth"
         });
     });
@@ -286,5 +286,5 @@ window.addEventListener("DOMContentLoaded", function() {
     loadGitHubRepos();
     loadVisitorName();
     siteCounter();
-    backToTopButton()
+    backToTopButton();
 });
