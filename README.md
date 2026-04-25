@@ -1,7 +1,7 @@
 # 202323090-MohammedAlfaraj-assignment4
 
 ## Project Description
-This is my Assignment 4 about my portfolio website, which is a continuation of my previous three assignments. The goal of this assignment is to add a new creative feature and publish a live version and bring everything together into a professional, responsive, and fully functional web application that shows my technial skills, creativity, and progress in web development.
+This is my Assignment 4 portfolio website, which is a continuation of my previous three assignments. The goal of this assignment is to add a new creative feature, publish a live version, and bring everything together into a professional, responsive, and fully functional web application that shows my technical skills, creativity, and progress in web development.
 
 ## Features
 - Responsive Layout
@@ -27,6 +27,7 @@ This is my Assignment 4 about my portfolio website, which is a continuation of m
 3. Open `index.html` using a browser or a local server.
 
 ## Live Deployment
+Live website: https://m-alfaraj.github.io/202323090-MohammedAlfaraj-assignment4/
 
 ## AI Usage Summary
 The main AI tool used in this assignment was ChatGPT. It helped me with:
