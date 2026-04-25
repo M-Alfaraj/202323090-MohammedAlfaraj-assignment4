@@ -82,7 +82,7 @@ The website is deployed publicly using GitHub Pages so it can be accessed throug
 - using `loading="lazy"` for project images
 - keeping image sizes small
 - removing repeated CSS and cleaning JavaScript issues like `;;`
-- 
+
 ## JavaScript Functions
 
 ### `toggleTheme()`
