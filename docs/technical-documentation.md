@@ -1,7 +1,7 @@
 # Technical Documentation
 
 ## Project Overview
-This assignment is a continuation of my portfolio website developed throughout the last threeAssignments. It brings together interactive features, API integration, stronger JavaScript logic, state management, performance improvements, and a creative feature into a polished and responsive personal web application that is ready to be shared publicly.
+This assignment is a continuation of my portfolio website developed throughout the last three assignments. It brings together interactive features, API integration, stronger JavaScript logic, state management, performance improvements, and a creative feature into a polished and responsive personal web application that is ready to be shared publicly.
 
 ## Technologies and Tools Used
 - HTML: The structure of the website.
@@ -61,7 +61,7 @@ JavaScript is used to:
 - show an error message if the API request fails
 
 ### 8. Visitor Name Saving with localStorage
-the visitor’s name is saved using `localStorage`, when the contact form is submitted successfully.
+The visitor’s name is saved using `localStorage` when the contact form is submitted successfully.
 This allows the website to:
 - display a welcome message in the About section
 - remember the visitor name after the page is refreshed
@@ -70,19 +70,19 @@ This allows the website to:
 A counter is displayed in the About section to show how long the visitor has been viewing the site.
 JavaScript updates the counter every second using `setInterval()`.
 
-### 10. Performance Improvements
-- using `loading="lazy"` for project images
-- keeping image sizes small
-- removing repeated CSS and cleaning JavaScript issues like `;;`
-
-### 11. Back-to-Top Button
+### 10. Back-to-Top Button
 A back-to-top button appears when the user scrolls down the page.
 When clicked, it smoothly scrolls the page back to the top.
 This improves navigation and makes the page easier to use.
 
-### 12. Live Deployment with GitHub Pages
+### 11. Live Deployment with GitHub Pages
 The website is deployed publicly using GitHub Pages so it can be accessed through a live link instead of only running locally.
 
+### 12. Performance Improvements
+- using `loading="lazy"` for project images
+- keeping image sizes small
+- removing repeated CSS and cleaning JavaScript issues like `;;`
+- 
 ## JavaScript Functions
 
 ### `toggleTheme()`
