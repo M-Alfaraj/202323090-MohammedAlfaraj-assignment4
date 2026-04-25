@@ -41,19 +41,33 @@ For more details, see `docs/ai-usage-report.md`.
 
 ## Project Structure
 202323090-MohammedAlfaraj-assignment4/
+
 ├── README.md
 
 ├── index.html
+
 ├── css/
+
 │   └── styles.css
+
 ├── js/
+
 │   └── script.js
+
 ├── assets/
+
 │   └── images/
+
 ├── docs/
+
 │   ├── ai-usage-report.md
+
 │   └── technical-documentation.md
+
 ├── presentation/
+
 │   ├── slides.pdf
+
 │   └── demo-video.mp4
+
 └── .gitignore
