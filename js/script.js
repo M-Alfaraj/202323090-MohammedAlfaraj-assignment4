@@ -252,6 +252,26 @@ function siteCounter(){
     }, 1000);
 }
 
+function backToTopButton(){
+    const backToTop = document.getElementById("backToTop");
+
+    window.addEventListener("scroll", function() {
+        if (window.scrollY > 200) {
+            backToTop.style.display = "block";
+        }
+        else {
+            backToTop.style.display = "none";
+        }
+    });
+
+    backToTop.addEventListener("click", function() {
+        window.scrollTo({
+            top=0,
+            behavior: "smooth"
+        });
+    });
+}
+
 
 //Run all functions on startup after the content loads
 window.addEventListener("DOMContentLoaded", function() {
@@ -266,4 +286,5 @@ window.addEventListener("DOMContentLoaded", function() {
     loadGitHubRepos();
     loadVisitorName();
     siteCounter();
+    backToTopButton()
 });

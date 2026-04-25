@@ -379,6 +379,30 @@ button:hover {
     font-weight: bold;
 }
 
+#backToTop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #153545;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+    z-index: 1000;
+}
+
+#backToTop:hover{
+    background-color: #0d82ff;
+    transform: translateY(-3px);
+}
+
 /*Dark mode toggle style*/
 
 .darkMode {
@@ -424,6 +448,15 @@ button:hover {
 
 .darkMode #visitor {
     color: #9ecbff;
+}
+
+.darkMode #backToTop {
+    background-color: black;
+    color: white;
+}
+
+.darkMode #backToTop:hover {
+    background-color: #444444;
 }
 
 /*Form Validation CSS*/
