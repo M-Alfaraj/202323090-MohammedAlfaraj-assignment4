@@ -1,26 +1,36 @@
 # AI Usage Report
 
 ## Tools Used & Use Cases
-- ChatGPT was used to generate code snippets to help solve problems and give examples of topics about JavaScript and CSS. I mainly used it for:
-1. helping implement localStorage for saving the current theme. 
-2. helping in creating the contact form validation system
-3. Debugging code and highlighting errors
-4. Suggesting how to implement a project search and filter feature.
+The main and only tool used in the assignment was ChatGPT, I mainly used it for:
+- Suggesting ideas and improvements for features that fit in assignment 4 requirement
+- Helping explain how to connect to GutHub using `fetch()` and how to handle error when the request fails
+- Helping create some functionalities like improving the filter and sort system for the project section
+- Helping to review code and documentation to discover errors or other issues
+
    
 ## Benefits & Challenges
 ### Benefits
-ChatGPT helped me with:
-- Understanding how to use localStorage to keep the theme even after reloading.
-- Helped in creating the project search and filter function.
+ChatGPT was helpful with:
+- Helped me understand how I could display my GitHub projects in my portfolio website.
+- Helped debug and find redundant code or any inconsistancies that I missed in the code or documents.
+- Showing examples of JavaScript for creating interactive features
+- Helped show me how to publish my project to make it live
 
 ### Challenges
-Some challenges I had with ChatGPT were when it gave responses that did not fit my requirements like solutions that did not align with the task. So, I had to give it more detail and instructions on what I wanted and requirements needed for the task to ensure it would give useful statements that would help with the assignment. 
+Some challenges I had with ChatGPT were:
+- Some suggestions did not help in completing the requirement, so I had to be more specific.
+- Sometimes, ChatGPT will give me code that is too advanced and I could not understand how to use it, so i had to explain that I needed simpler code.
+- Because ChatGPT was not accurate all the time, I had to test the functionalities many times to confirm it worked correctly
 
 ## Learning Outcome
 Using ChatGPT I learned:
-- How to use localStorage to store values based on user preferences
-- How to validate forms and show an appropriate feedback message
-- How to filter sections based on `data-search` values based on the keywords entered by the user.
+- How to use the GitHub API using `fetch()`
+- How to display dynamic data from an external API like GitHub
+- How to combine search, filtering, and sorting logic to search for projects
+- How to use `localStorage` for multiple features
+- How to create a counter and visitor name saving system
+- How to add a back-to-top button to improve user experience
+- How to deploy a website publicly using GitHub Pagesbased on `data-search` values based on the keywords entered by the user.
 
 ## Responsible Use & Modifications
 All AI-generated code and suggestions from ChatGPT were reviewed and modified based on my understanding rather than being used unmodified. I also added comments to explain and help make it easier to find code related to certain parts of HTML, CSS, and JavaScript code. AI was also used to suggest new ideas and improvements to take into consideration to help make the page better, adjustments and ideas from ChatGPT were taken with consideration and all were coded by me based on my understanding.
