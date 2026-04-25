@@ -42,6 +42,7 @@ For more details, see `docs/ai-usage-report.md`.
 ## Project Structure
 202323090-MohammedAlfaraj-assignment4/
 ├── README.md
+
 ├── index.html
 ├── css/
 │   └── styles.css
