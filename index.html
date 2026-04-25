@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="wholePage">
+    <header>     
+    <h1>Mohammed Alfaraj's Portfolio Page</h1>
+    <p id="greeting"></p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">My Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#githubProjects">GitHub</a></li>
+                <li><a href="#contact">Contact me</a></li>
+                <li><button id="buttonTheme" type="button">🌙</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a Computer Science student who is passionate about learning web development to build clean and responsive websites.</p>
+        <p>I'm interested in different aspects of CS and SWE, and I'm always eager to learn and improve my skills.</p>
+        <p><strong>TagLine:</strong> Plan accordingly and use every second wisely</p>
+        <p id="visitor"></p>
+        <p id="siteCounter" class="sectionPhrase"></p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skillsContainer">
+            <div>
+                <h3>Hard Skills</h3>
+                <ul>
+                    <li>Programming Using Python, Java, HTML, JavaScript</li>
+                    <li>Database Management</li>
+                    <li>Information Security </li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Cooperative With Teammates</li>
+                    <li>Good Leadership</li>
+                    <li>Creative Thoughts</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p class="sectionPhrase">Browse my projects below and use the search box to find projects by keyword such as FPGA, BFS, or game.</p>
+        
+        <div id="projectDisplay">
+            <div class="projectSearch"> 
+                <label for="projectSearch">Search Projects:</label>
+                <input type="text" id="projectSearch" name="search" placeholder="Type to search projects...">
+            </div>
+            
+            <div class="projectSortFilter">
+                <div>
+                    <label for="projectFilter">Filter by Type:</label>
+                    <select id="projectFilter" name="projectFilter">
+                        <option value="all">All</option>
+                        <option value="hardware">Hardware</option>
+                        <option value="algorithm">Algorithm</option>
+                        <option value="game">Game</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="projectSort">Sort by Title:</label>
+                    <select id="projectSort" name="projectSort">
+                        <option value="default">Default</option>
+                        <option value="az">A-Z</option>
+                        <option value="za">Z-A</option>
+                    </select>  
+                </div>
+            </div>
+        </div>
+
+        <p id="projectMessageNull" class="sectionPhrase" style="display: none;">No projects found. Try changing the search or filter.</p>
+            <div id="projectList">
+            <div class="projectSection" data-search="Verilog FPGA clock alarm" data-category="hardware" data-title="Working Clock Using Verilog">
+                <h3>Project 1: Working Clock Using Verilog</h3>
+                <p>A project where an FPGA board is used as an alarm clock that was programmed using the 
+                    Verilog programming language. Users can change the time or set an alarm using switches 
+                    that represent a number in binary. When the alarm time is reached, an LED light will turn on
+                </p>
+                <img src="assets/images/FPGA-board.jpg" alt="FPGA board connected" width="600" height="300" loading="lazy">
+            </div>
+
+            <div class="projectSection" data-search="Shortest path BFS Algorithm graph search" data-category="algorithm" data-title="Shortest Path Algorithm">
+                <h3>Project 2: Shortest Path Algorithm</h3>
+                <p>A project where a scenario with a starting point and goal is represented as a 2D array with 
+                    specific constraints. Breadth-First Search (BFS) is used to find the shortest possible path 
+                    and calculate the minimum number of moves required.
+                </p>
+                <img src="assets/images/BFS.png" alt="Shortest path Algorithm in process" width="600" height="300" loading="lazy">
+            </div>
+
+            <div class="projectSection" data-search="JavaFX flying stars game" data-category="game" data-title="Creating a game using JavaFX">
+                <h3>Project 3: Creating a game using JavaFX</h3>
+                <p>A project about a game that allows the player to control a colored ball. A star would appear 
+                    in the middle of the screen, and players need to maneuver the ball to the edge with the same 
+                    color as the ball to score points.
+                </p>
+                <img src="assets/images/Stars.png" alt="Flying Start game" width="600" height="300" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <section id="githubProjects">
+        <h2>GitHub Repositories</h2>
+        <p class="sectionPhrase">Below are some of my repositories fetched from GitHub</p>
+        <p id="repoMessage" class="sectionPhrase">Loading repositories...</p>
+        <div id="repoContainer" class="repoContainer"></div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact me</h2>
+
+        <p class="sectionPhrase">Enter your name, email, and message, then press "Send Message". The form will show an error if any field is empty or the email format is invalid.</p>
+        <p id="formMessage" class="formMessage" style="display: none;"></p>
+        
+        <form id="contactForm" novalidate>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"  required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+    </section>
+    </div>
+</body>
+</html>
